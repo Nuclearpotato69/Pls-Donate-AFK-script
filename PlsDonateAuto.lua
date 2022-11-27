@@ -42,8 +42,8 @@ local booths = { ["1"] = "72, 3, 36", ["2"] = "83, 3, 161", ["3"] = "11, 3, 36",
 local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or (fluxus and fluxus.queue_on_teleport)
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
 local httpservice = game:GetService('HttpService')
-queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/LukeDXD/PlsDonateNew/main/PlsDonateAuto.lua'))()")
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/LukeDXD/PlsDonateNew/main/UI-Engine.lua"))()
+queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/Nuclearpotato69/Pls-Donate-AFK-script/main/PlsDonateAuto.lua'))()")
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Pls-Donate-AFK-script/main/UI-Engine.lua"))()
 
 local function claimGifts()
     pcall(function()
